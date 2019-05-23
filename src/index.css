@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,256 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.styleHeader{
+  height: 4rem;
+  display: flex;
+}
+.switching{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+.styleLogo{
+  padding-left: 1.8rem;
+  font-size: 4rem;
+}
+.loginConOne{
+  display: flex;
+    justify-content: start;
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding-left: 30rem;
+    margin-top: 1rem;
+ 
+}
+
+.loginConOne >.signStyle{
+  padding-right: 1rem;
+  text-decoration: none;
+  color: black;
+ 
+ 
+}
+
+
+.signStyle:hover{
+  color: #c4c2c8 !important;
+}
+.signStyle:focus{
+  color: #c4c2c8 !important;
+}
+
+.registerStyle:hover{
+  color: #c4c2c8 !important;
+}
+.registerStyle:focus{
+  color: #c4c2c8 !important;
+}
+
+.loginConOne >.registerStyle{
+ color: black;
+  text-decoration: none;
+ 
+}
+
+
+.loginConTwo{
+  color: #aaaaaa;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.3rem;
+  padding-left: 30rem;
+  font-weight: 400;
+  /* word-spacing: 0.1rem; */
+  letter-spacing: 0.1rem;
+}
+.formStyle{
+  width: 24%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30rem;
+}
+
+.form-control{
+background-color: #f4f5f7 !important;
+height: calc(1.8em + .75rem + 2px) !important;
+}
+.loginButton{
+  width: 39%;
+  margin-top: 3rem;
+  background-color: #0052cc;
+  margin-bottom: 9.5rem;
+}
+.RegisterButton{
+  width: 39%;
+  margin-top: 1rem;
+  background-color: #0052cc;
+  margin-bottom: 3.5rem;
+}
+.labelStyle{
+font-weight: bold !important;
+margin-bottom: 0px !important;
+  color: #68758b;
+}
+input[type=checkbox]{
+  position: absolute;
+  top: -4px;
+  left: 19px;
+  /* padding-right: 24px; */
+  /* margin-right: 4rem; */
+  height: 20px;
+  width: 20px;
+  background-color:white !important;
+}
+.form-check-label{
+  padding-left: 1rem !important;
+}
+/*  */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 61px;
+  height: 31px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 9px;
+  left: -19px;
+    right: 43px;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: -7px;
+  bottom: 4px;
+  background-color: white;
+  color: red;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: black;
+  
+}
+.slider:after{
+  color: white;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* footer */
+.footerStyle{
+  height: 3rem;
+  background-color: white;
+  
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 9rem;
+ 
+}
+
+.footerStyle>p{
+  padding-right: 0.5rem;
+  color: #68758b;
+  font-weight: 600;
+}
+.form-group{
+  margin-bottom: 0.5rem !important;
+
+}
+/* side-nav */
+.GParentSideNav{
+  display: flex;
+}
+.sideNavParent{
+  display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+margin-right: 0px !important;
+  height: 41rem;
+  width: 5%;
+  -webkit-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.47);
+-moz-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.47);
+box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.47);
+  background-color:#ffffff;
+}
+.sideCon1,.sideCon2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+
+}
+.sideCon1>span{
+  padding-top: 1rem;
+}
+.sideCon2 > *{
+  padding-top: 1rem;
+  
+}
+.sideCon2{
+  margin-bottom: 1.5rem;
+}
+.flag-size{
+  height: 43px;
+  width: 30px;
+}
+.sideNavSwitch{
+  position: relative;
+  left: 2rem;
+ 
+  
+}
+/* personal setting */
+.linkStyle{
+  color: black !important
+}
+
+.PersonalParent{
+ 
+  display: flex;
+}
+.PersonalContent{
+  display: flex;
+  flex-direction: column;
+}
+.side{
+  position: relative;
+  left: 10rem;
 }
