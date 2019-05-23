@@ -261,16 +261,48 @@ box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.47);
 }
 .filelabel{
   padding: 10px;
-  border: 1px dotted ;
-  display: table;
-  color: black;
-  width: 60%;
-  padding-left: 7rem;
-  font-size: 1.1rem;
+    border: 1px #e8e8e8;
+    border-style: dashed;
+    display: table;
+    color: #656565;
+    width: 60%;
+    padding-left: 7rem;
+    font-size: 1.1rem;
    }
 
 
 
 input[type="file"] {
   display: none;
+}
+.form-row {
+  width: 92%;
+}
+.styleformpersonal{
+  margin-left: -1rem;
+  width: 64%;
+}
+.per1{
+  font-size: 1.7rem;
+    font-weight: 500;
+}
+.per2{
+  font-size: 1.6rem;
+  color: #878787;
+  margin-top: 1.3rem;
+ 
+
+  font-weight: 100;
+}
+.parentpersonal > label{
+  margin-bottom: 0px;
+}
+.form-group>label{
+  margin-bottom: 0px !important;
+}
+.formPer{
+  margin-top: 1.3rem;
+}
+.parentpersonal  {
+  margin-bottom: 4.5rem;
 }
