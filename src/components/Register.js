@@ -23,7 +23,7 @@ class Register extends React.Component{
             </NavLink> 
             </div>
             <div className="loginConTwo">
-           <p> WELCOME,Please Register</p>
+           <p> WELCOME,Please Register </p>
             </div>
             <form className="formStyle">
         <div class="form-group ">

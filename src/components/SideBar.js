@@ -26,9 +26,7 @@ class SideBar extends React.Component{
            </span>
           {/*  <Link to="/login">login</Link>
         <Link to="/Register"> Register</Link>*/}
-        <div>
-        <p>persmkdjfd</p>
-        </div>
+       
             </div>
         )
     }

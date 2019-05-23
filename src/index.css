@@ -249,15 +249,28 @@ box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.47);
   color: black !important
 }
 
-.PersonalParent{
- 
-  display: flex;
-}
-.PersonalContent{
-  display: flex;
+.parentpersonal{
+  DISPLAY: flex;
   flex-direction: column;
+  width: 100%;
+  /* background-color: rebeccapurple; */
+  /* align-items: center; */
+  /* margin-right: 3rem; */
+  margin-left: 12rem;
+  padding-top: 5rem;
 }
-.side{
-  position: relative;
-  left: 10rem;
+.filelabel{
+  padding: 10px;
+  border: 1px dotted ;
+  display: table;
+  color: black;
+  width: 60%;
+  padding-left: 7rem;
+  font-size: 1.1rem;
+   }
+
+
+
+input[type="file"] {
+  display: none;
 }
