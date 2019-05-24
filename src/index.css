@@ -82,7 +82,7 @@ code {
 
 .form-control{
 background-color: #f4f5f7 !important;
-height: calc(1.8em + .75rem + 2px) !important;
+height: calc(1.8em + .75rem + 2px) ;
 }
 .loginButton{
   width: 39%;
@@ -112,7 +112,8 @@ input[type=checkbox]{
   background-color:white !important;
 }
 .form-check-label{
-  padding-left: 1rem !important;
+  /* padding-left: 1rem !important; */
+  margin-left: -31px;
 }
 /*  */
 .switch {
@@ -305,4 +306,74 @@ input[type="file"] {
 }
 .parentpersonal  {
   margin-bottom: 4.5rem;
+}
+/* start page */
+.startPageStyleP{
+  height: 41rem;
+  background-color: yellowgreen;
+  width: 95%;
+}
+.startPartMain{
+  display: flex;
+}
+.startPartMainOne{
+  width: 75%;
+  height: 38rem;
+  background-color:royalblue;
+}
+.startPartMainTwo{
+  width: 25%;
+  height: 38rem;
+  background-color: rosybrown;
+}
+table td, .table th {
+  padding: .45rem !important;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+.flagSize2{
+  height: 1.5rem;
+    width: 1.5rem;
+    border: none !important;
+    margin-right: 6px;
+}
+.tdStyle{
+  width: 14%;
+}
+.thStyle1{
+  width: 19%;
+
+  
+}
+.thStyle{
+  width: 16%;
+
+}
+.fornSone{
+  height: calc(1.5em + .75rem + 2px) !important;
+  border-radius: none !important;
+}
+.formSOne1{
+  display: none;
+}
+.mb-3{
+  margin-bottom: 0px !important;
+}
+.StIcon1{
+  
+  display: flex;
+  align-self: flex-end;
+  font-size: 0.9rem;
+  /* justify-content: flex-end; */
+  margin-left: 0.2rem;  
+}
+.k{
+  padding-left: 6.5rem;
+}
+.form-check {
+  position: relative;
+  display: flex;
+  padding-left: 1.25rem;
+ 
+  justify-content: space-evenly;
 }

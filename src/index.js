@@ -4,6 +4,7 @@ import LogIn from './components/login';
 import RoutersComponent from './RoutersComponent.js';
 import SideBar from './components/SideBar.js';
 import './index.css';
+import StartPage from './components/StartPage';
 
 // import * as serviceWorker from './serviceWorker';
 
@@ -11,7 +12,8 @@ export default class Home extends React.Component{
     render(){
         return(
             <div>
-            <SideBar/>
+            
+            <StartPage/>
            
             </div>
         )

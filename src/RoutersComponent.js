@@ -5,6 +5,7 @@ import login from './components/login';
 import Home from './index.js';
 import SideBar from './components/SideBar';
 import PersonalSetting from './components/PersonalSetting';
+import StartPage from './components/StartPage';
 
 class RoutersComponent extends React.Component{
     render(){
@@ -18,6 +19,7 @@ class RoutersComponent extends React.Component{
                 <Route path="/Register" component={Register}/>
                 <Route path="/SideBar" component={SideBar}/>
                 <Route path="/PersonalSetting" component={PersonalSetting}/>
+                <Route path="/StartPage" component={StartPage}/>
                 </div>
                 </Switch>
                
